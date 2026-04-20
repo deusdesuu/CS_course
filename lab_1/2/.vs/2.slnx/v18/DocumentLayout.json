@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3E6492-0E96-3520-0295-F359D28A5829}|2.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_1\\2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F3E6492-0E96-3520-0295-F359D28A5829}|2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3E6492-0E96-3520-0295-F359D28A5829}|2.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_1\\2\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F3E6492-0E96-3520-0295-F359D28A5829}|2.csproj|solutionrelative:input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3E6492-0E96-3520-0295-F359D28A5829}|2.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_1\\2\\linesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F3E6492-0E96-3520-0295-F359D28A5829}|2.csproj|solutionrelative:linesegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LineSegment.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\LineSegment.cs",
+              "RelativeDocumentMoniker": "LineSegment.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\LineSegment.cs",
+              "RelativeToolTip": "LineSegment.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwD0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T11:40:30.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Input.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\Input.cs",
+              "RelativeDocumentMoniker": "Input.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\Input.cs",
+              "RelativeToolTip": "Input.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T11:38:37.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_1\\2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T11:33:47.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
