@@ -34,8 +34,8 @@ Student:Status:
 
 Input:
 - класс для проверки ввода
-- InputUint()
-- InputBool()
+- InputUint() - ввод беззнакового целого числа, с проверкой
+- InputBool() - ввод логического значения, с проверкой
 
 ### Тестирование
 
@@ -63,7 +63,7 @@ LineSegment:
 - Intersection() -> пересечение двух отрезков -> LineSegment || null
 
 Input:
-- InputDouble()
+- InputDouble() - ввод double числа, с проверкой
 
 ### Тестирование
 
