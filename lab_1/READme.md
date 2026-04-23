@@ -12,7 +12,7 @@
 
 Реализация:
 
-Status:
+class Status:
 - 2 логических поля: наличие долгов и статус флюрографии (true - устарела)
 - метод Check() на отрицание дизъюнкции полей false + false -> true
   для проверки что студент не имеет задолженностей
@@ -22,7 +22,7 @@ Status:
   - bool, bool
 - перегрузка метода ToString() для вывода
 
-Student:Status:
+class Student:Status:
 - поля string _fullName и uint course
 - конструкторы:
   - пустой
@@ -32,7 +32,7 @@ Student:Status:
 - метод Check() на проверку задолженностей
 - метод Promote() - попытаться перевести студента на следующий курс
 
-Input:
+class Input:
 - класс для проверки ввода
 - InputUint() - ввод беззнакового целого числа, с проверкой
 - InputBool() - ввод логического значения, с проверкой
@@ -52,7 +52,7 @@ Input:
 
 ### Алгоритм решения
 
-LineSegment:
+class LineSegment:
 - double _x, double _y
 - 3 конструктора:
   - пустой -> (0, 0)
@@ -62,7 +62,7 @@ LineSegment:
 - Min(double, double), Max(double, double) (чтобы не подключать Math)
 - Intersection() -> пересечение двух отрезков -> LineSegment || null
 
-Input:
+class Input:
 - InputDouble() - ввод double числа, с проверкой
 
 ### Тестирование
