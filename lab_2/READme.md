@@ -135,12 +135,19 @@ class Structures:
 
 class Structures:
 - KeyValuePair<int, SortedList<int, int>> ReadFile(string) - считывает файл, возвращает данные в виде пары
+
   <
+  
   кол-во элементов в списке
+  
   SortedList<
+  
     кол-во баллов,
+  
     сколько учеников набрало этот балл>
+  
   >
+  
 - int Task10(KeyValuePair<int, SortedList<int, int>>) - набирает студентов на отметку "отлично" под условие 20%,
                                                         проверяя все входные условия, выдает минимальный балл на "отлично"
 
