@@ -14,7 +14,7 @@
 Реализация:
 
 class File:
-- Random _rnd - переменная Random
+- Random _rnd - поле Random
 - static File() - инициализация _rnd
 - void MakeFile1(uint, string) - создает текстовый файл, заполненный случайными числами [-500_000; +500_000]
 - void Task1(int, string, string) - создает новый текстовый файл, на основе исходного, уменьшая каждое значение в k раз
@@ -93,7 +93,7 @@ class File:
 ### Алгоритм решения
 
 class Structures:
-- Random _rnd - переменная Random
+- Random _rnd - поле Random
 - static Structures() - инициализация _rnd
 - List<int> MakeListInt(uint) - создает List<int> со случайными значениями [-500; 500]
 - List<int> Task6(List<int>) - создает новый массив, в котором элементы из данного повторяются дважды
