@@ -1,4 +1,8 @@
-﻿namespace ConsoleApp1
+using System;
+using System.IO;
+
+
+namespace ConsoleApp1
 {
     internal class File
     {
@@ -11,160 +15,220 @@
 
         public static void MakeFile1(uint n, string filename)
         {
-            StreamWriter stream = new StreamWriter(filename);
-            for (uint i = 0; i < n; ++i)
+            try
             {
-                stream.WriteLine(_rnd.NextInt64() % 1_000_000 - 500_000 + 1);
+                StreamWriter stream = new StreamWriter(filename);
+                for (uint i = 0; i < n; ++i)
+                {
+                    stream.WriteLine(_rnd.Next() % 1_000_000 - 500_000 + 1);
+                }
+                stream.Close();
             }
-            stream.Close();
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         public static void Task1(int k, string inputFile, string outputFile)
         {
-            StreamReader input = new StreamReader(inputFile);
-            StreamWriter output = new StreamWriter(outputFile);
-
-            string line;
-            int n;
-
-            while ((line = input.ReadLine()) != null)
+            try
             {
-                n = int.Parse(line);
-                output.WriteLine(n / k);
-            }
+                StreamReader input = new StreamReader(inputFile);
+                StreamWriter output = new StreamWriter(outputFile);
 
-            input.Close();
-            output.Close();
+                string line = "";
+                int n = 0;
+
+                while ((line = input.ReadLine()) != null)
+                {
+                    n = int.Parse(line);
+                    output.WriteLine(n / k);
+                }
+
+                input.Close();
+                output.Close();
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         public static void MakeFile2(uint n, uint k, string filename)
         {
-            StreamWriter stream = new StreamWriter(filename);
-
-            for (int i = 0; i < n; ++i)
+            try
             {
-                for (int j = 0; j < k; ++j)
-                {
-                    stream.Write(_rnd.NextInt64() % 1_000_000 - 500_000 + 1);
-                    stream.Write(" ");
-                }
-                stream.WriteLine();
-            }
+                StreamWriter stream = new StreamWriter(filename);
 
-            stream.Close();
+                for (int i = 0; i < n; ++i)
+                {
+                    for (int j = 0; j < k; ++j)
+                    {
+                        stream.Write(_rnd.Next() % 1_000_000 - 500_000 + 1);
+                        stream.Write(" ");
+                    }
+                    stream.WriteLine();
+                }
+
+                stream.Close();
+            }
+            catch(Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         public static int Task2(string filename)
         {
-            string line;
-            StreamReader stream = new StreamReader(filename);
-            bool firstFlag = true;
-
-            int firstElem = 0;
-            int max = 0;
-            int elemInt;
-
-            while ((line = stream.ReadLine()) != null)
+            try
             {
-                foreach (string elem in line.Split(' '))
+                string line;
+                StreamReader stream = new StreamReader(filename);
+                bool firstFlag = true;
+
+                int firstElem = 0;
+                int max = 0;
+                int elemInt = 0;
+
+                while ((line = stream.ReadLine()) != null)
                 {
-                    if (elem == "")
+                    foreach (string elem in line.Split(' '))
                     {
-                        continue;
-                    }
-                    elemInt = int.Parse(elem);
-                    if (firstFlag)
-                    {
-                        firstElem = elemInt;
-                        max = elemInt;
-                        firstFlag = false;
-                        continue;
-                    }
-                    if (elemInt > max)
-                    {
-                        max = elemInt;
+                        if (elem == "")
+                        {
+                            continue;
+                        }
+                        elemInt = int.Parse(elem);
+                        if (firstFlag)
+                        {
+                            firstElem = elemInt;
+                            max = elemInt;
+                            firstFlag = false;
+                            continue;
+                        }
+                        if (elemInt > max)
+                        {
+                            max = elemInt;
+                        }
                     }
                 }
+                return firstElem + max;
             }
-            return firstElem + max;
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+                return 0;
+            }
         }
         public static void MakeFile3(string filename)
         {
-            StreamWriter stream = new StreamWriter(filename);
-            string alph = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-            int n = 33;
-            int k = 100;
-
-            for (int i = 0; i < n; ++i)
+            try
             {
-                for (int j = 0; j < k; ++j)
+                StreamWriter stream = new StreamWriter(filename);
+                string alph = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+                int n = 33;
+                int k = 100;
+
+                for (int i = 0; i < n; ++i)
                 {
-                    stream.Write(alph[_rnd.Next(33)]);
+                    for (int j = 0; j < k; ++j)
+                    {
+                        stream.Write(alph[_rnd.Next(33)]);
+                    }
+                    stream.WriteLine();
                 }
-                stream.WriteLine();
+                stream.Close();
             }
-            stream.Close();
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         public static void Task3(string inputFile, string outputFile)
         {
-            StreamReader input = new StreamReader(inputFile);
-            StreamWriter output = new StreamWriter(outputFile);
-
-            string line;
-            while ((line = input.ReadLine()) != null)
+            try
             {
-                if (line[0] == 'б' || line[1] == 'б')
-                {
-                    output.WriteLine(line);
-                }
-            }
+                StreamReader input = new StreamReader(inputFile);
+                StreamWriter output = new StreamWriter(outputFile);
 
-            input.Close();
-            output.Close();
+                string line;
+                while ((line = input.ReadLine()) != null)
+                {
+                    if (line[0] == 'б' || line[1] == 'б')
+                    {
+                        output.WriteLine(line);
+                    }
+                }
+
+                input.Close();
+                output.Close();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         public static void MakeFile4(uint n, string filename)
         {
-            FileStream fs = new FileStream(filename, FileMode.Create);
-            BinaryWriter stream = new BinaryWriter(fs);
-
-            Console.WriteLine("Исходный файл:");
-            int value;
-
-            for (int i = 0; i < n; ++i)
+            try
             {
-                value = (int)(_rnd.NextInt64() % 1_000_000 - 500_000 + 1);
-                Console.WriteLine(value);
-                stream.Write(value);
+                FileStream fs = new FileStream(filename, FileMode.Create);
+                BinaryWriter stream = new BinaryWriter(fs);
+
+                Console.WriteLine("Исходный файл:");
+                int value = 0;
+
+                for (int i = 0; i < n; ++i)
+                {
+                    value = (int)(_rnd.Next() % 1_000_000 - 500_000 + 1);
+                    Console.WriteLine(value);
+                    stream.Write(value);
+                }
+                stream.Close();
+                fs.Close();
             }
-            stream.Close();
-            fs.Close();
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         public static void Task4(string inputFile, string outputFile)
         {
-            FileStream inputStream = new FileStream(inputFile, FileMode.Open);
-            FileStream outputStream = new FileStream(outputFile, FileMode.Create);
-
-            BinaryReader input = new BinaryReader(inputStream);
-            BinaryWriter output = new BinaryWriter(outputStream);
-
-            Console.WriteLine("\nРезультат работы программы:");
-
-            int value;
-
-            while (inputStream.Position < inputStream.Length)
+            try
             {
-                value = input.ReadInt32();
-                if (CheckNum(value))
+                FileStream inputStream = new FileStream(inputFile, FileMode.Open);
+                FileStream outputStream = new FileStream(outputFile, FileMode.Create);
+
+                BinaryReader input = new BinaryReader(inputStream);
+                BinaryWriter output = new BinaryWriter(outputStream);
+
+                Console.WriteLine("\nРезультат работы программы:");
+
+                int value = 0;
+
+                while (inputStream.Position < inputStream.Length)
                 {
-                    Console.WriteLine(value);
-                    output.Write(value);
+                    value = input.ReadInt32();
+                    if (CheckNum(value))
+                    {
+                        Console.WriteLine(value);
+                        output.Write(value);
+                    }
                 }
+                input.Close();
+                output.Close();
+                inputStream.Close();
+                outputStream.Close();
             }
-            input.Close();
-            output.Close();
-            inputStream.Close();
-            outputStream.Close();
+            catch (Exception)
+            {
+                Console.WriteLine("Ошибка в имени файла.");
+            }
         }
         private static bool CheckNum(int n)
         {
-            n *= -1;
+            if (n < 0)
+            {
+                n *= -1;
+            }
             int a = n % 10;
             int b = a;
             
