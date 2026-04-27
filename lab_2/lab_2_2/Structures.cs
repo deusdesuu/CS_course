@@ -124,12 +124,16 @@ namespace lab_2_2
         }
         public static KeyValuePair<int, SortedList<int, int>> ReadFile(string filename)
         {
+            if (!File.Exists(filename))
+            {
+                return new KeyValuePair<int, SortedList<int, int>>(0, []);
+            }
             StreamReader stream = new StreamReader(filename);
             
             int n = int.Parse(stream.ReadLine());
             SortedList<int, int> list = new SortedList<int, int>();
-            string line;
-            int score;
+            string line = "";
+            int score = 0;
 
             while ((line = stream.ReadLine()) != null)
             {
@@ -151,9 +155,9 @@ namespace lab_2_2
             SortedList<int, int> list = pair.Value;
 
             int desired = (int)(n * 0.2);
-            int score;
+            int score = 0;
             int lastScore = -1;
-            int count;
+            int count = 0;
             int studentsCounted = 0;
 
             for (int i = list.Count - 1; i >= 0; --i)

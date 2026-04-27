@@ -6,7 +6,7 @@ namespace lab_2_2
     {
         static void Main(string[] args)
         {
-            uint n;
+            uint n = 0;
             // Task6
             /*
             Console.WriteLine("Задание 6.");
