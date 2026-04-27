@@ -20,12 +20,12 @@ namespace ConsoleApp1
         public static void Main(string[] args)
         {
             uint n = Input.InputUInt("Введите кол-во студентов: ");
-            string name;
-            string buffer;
-            uint course;
-            bool debt;
-            bool flurOld;
-            bool f;
+            string name = "";
+            string buffer = "";
+            uint course = 0;
+            bool debt = true;
+            bool flurOld = true;
+            bool f = true;
             List<Student> students = [];
 
             for (int i = 1; i <= n; ++i)

@@ -9,11 +9,11 @@ namespace ConsoleApp2
     {
         public static void Main(string[] args)
         {
-            double x;
-            double y;
-            LineSegment lineA;
-            LineSegment lineB;
-            LineSegment intersection;
+            double x = .0;
+            double y = .0;
+            LineSegment lineA = new LineSegment();
+            LineSegment lineB = new LineSegment();
+            LineSegment intersection = new LineSegment();
 
             Console.WriteLine("Введите координаты первого отрезка:");
             x = Input.InputDouble("Введите х: ");

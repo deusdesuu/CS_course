@@ -9,11 +9,11 @@ namespace ConsoleApp3
     {
         public static void Main(string[] args)
         {
-            double x;
-            double y;
-            LineSegment lineA;
-            LineSegment lineB;
-            LineSegment intersection;
+            double x = .0;
+            double y = .0;
+            LineSegment lineA = new LineSegment();
+            LineSegment lineB = new LineSegment();
+            LineSegment intersection = new LineSegment();
 
             Console.WriteLine("Введите координаты первого отрезка:");
             x = Input.InputDouble("Введите х: ");
@@ -46,7 +46,7 @@ namespace ConsoleApp3
             Console.WriteLine("!lineA = " + !lineA);
             Console.WriteLine("!lineB = " + !lineB);
 
-            int value;
+            int value = 0;
             Console.WriteLine("\nПример неявного приведения int:");
             value = lineA;
             Console.WriteLine("(int)lineA = " + value);
