@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_3\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_3\\consoleapp1\\input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:input.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_3\\consoleapp1\\visitstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:visitstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|c:\\users\\valus\\source\\repos\\cs_course\\lab_3\\consoleapp1\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Input.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\Input.cs",
+              "RelativeDocumentMoniker": "Input.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\Input.cs",
+              "RelativeToolTip": "Input.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAlwGUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:28:17.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VisitStat.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\VisitStat.cs",
+              "RelativeDocumentMoniker": "VisitStat.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\VisitStat.cs",
+              "RelativeToolTip": "VisitStat.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwEsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:43:38.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\FileHandler.cs",
+              "RelativeDocumentMoniker": "FileHandler.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\FileHandler.cs",
+              "RelativeToolTip": "FileHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:32:45.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\valus\\source\\repos\\CS_course\\lab_3\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:27:12.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
