@@ -6,7 +6,8 @@
 
 ### Текст задачи
 
-<img width="655" height="370" alt="image" src="https://github.com/user-attachments/assets/cab3f83a-b710-4713-bb6e-97f9dd23a85d" />
+<img width="484" height="17" alt="image" src="https://github.com/user-attachments/assets/44bcf92e-2a00-46e1-a7c1-11392a8e1de8" />
+
 
 
 
