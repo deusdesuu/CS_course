@@ -1,4 +1,4 @@
-# Мячин Валентин БАС-2 Лабораторная №6 (вариант 16)
+# Мячин Валентин БАС-2 Лабораторная №8 (вариант 16)
 
 # Задание 1
 
@@ -6,7 +6,9 @@
 
 ### Текст задачи
 
-<img width="470" height="18" alt="image" src="https://github.com/user-attachments/assets/b5bbe890-6614-4a23-ab8c-9429be771d14" />
+<img width="484" height="17" alt="image" src="https://github.com/user-attachments/assets/44bcf92e-2a00-46e1-a7c1-11392a8e1de8" />
+
+
 
 
 ### Алгоритм решения
